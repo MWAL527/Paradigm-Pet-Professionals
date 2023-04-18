@@ -1,0 +1,275 @@
+body{
+    margin: 0%;
+}
+
+header {
+    background-color: #003b6d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.intro{
+    font-size: 150%;
+    text-align: center;
+    margin-left: 0%;
+    color: #bdbdbd;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px #6699cc;
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .search-input {
+    padding: 0.5em;
+    margin-right: 40px;
+    margin-top: 25px;
+    background-color: #bdbdbd;
+  }
+  
+  .search-button {
+    padding: 0.5em 1em;
+    background-color: #6699cc;
+    color: #003b6d;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+.logo{
+    height: 140px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right: 20%;
+    border-radius: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  nav a {
+    display: block;
+    padding: 20px;
+    color: #003b6d;
+    text-align: center;
+    text-decoration: none;
+    border-right: 30px solid #003b6d;
+    border-left:30px solid #003b6d;
+    border-radius: 50%;
+    background-color: #bdbdbd;
+    margin-bottom: 20px;
+  }
+  
+  nav a:hover {
+    background-color: #666;
+  }
+
+  section{ 
+    background-color: #676767;
+    text-align: center;
+    margin: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.intro2{
+        margin-top: -3%;
+        margin-bottom: 0%;
+        color: #bdbdbd;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 100px;
+        text-shadow: 0.5px 0.5px #6699cc;
+}
+
+.brief{
+    margin-left: 10%;
+    color: #bdbdbd;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+
+main{
+    background-color: #676767;
+    display: flex;
+    flex-direction: row;
+    height: 160vh;
+}
+
+h1{
+    color: #bdbdbd;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px #6699cc;
+}
+.t1{
+    margin-left: 7%;
+}
+
+.de{
+    margin-right: 13%;
+    margin-left: 15%;
+    padding-left: 10%;
+    margin-bottom: 8%;
+    font-size: 20px;
+    color: #bdbdbd;
+}
+
+.t2{
+margin-right: 10%;
+}
+
+.ge{
+    font-size: 20px;
+    color: #bdbdbd;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 20%;
+    margin-bottom: 8%;
+}
+
+.dog2{
+    width: 15%;
+    position: absolute;
+    right: 3%;
+    top: 105%;
+}
+
+
+
+.vm{
+    font-size: 20px;
+    color: #bdbdbd;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 8%;
+}
+
+.imageside1, .info {
+    flex: 1;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 768px){
+    main{
+    flex-direction: row;
+    }
+}
+
+.imageside1{
+    margin-top: -8%;
+    ;
+}
+
+.info{
+    margin-left: -100%;
+    text-align: center;
+}
+
+.dog1{ 
+    margin-left: 5%;
+    width: 16%;
+}
+
+.pexpert{
+    font-size: 20px;
+    color: #bdbdbd;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 4%;
+}
+
+.altlink{
+    font-size: 40px;
+    color: #bdbdbd;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #003b6d;
+    align-items: center;
+    padding: 0%;
+    display: flex;
+}
+
+.bot{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 10%;
+    color: #bdbdbd;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+.logo2{
+    width: 3%;
+    margin-left: 19.5%;
+}
+
+.pinterest{
+    display: flex;
+    max-width: fit-content;
+}
+
+.pinterest1{
+    width: 50px;
+}
+
+.facebook{
+    display: flex;
+    max-width: fit-content;
+}
+
+.facebook1{
+    width: 50px;
+}
+
+.twitter{
+    display: flex;
+    max-width: fit-content;
+}
+
+.twitter1{
+    width: 50px;
+}
+
+.insta{
+    display: flex;
+    max-width: fit-content;
+    
+}
+
+.insta1{
+    width: 50px;
+}

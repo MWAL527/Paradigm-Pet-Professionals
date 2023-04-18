@@ -1,0 +1,275 @@
+body{
+    margin: 0%;
+}
+
+header {
+    background-color: #003b6d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.intro{
+    font-size: 150%;
+    text-align: center;
+    margin-left: 0%;
+    color: #bdbdbd;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px #6699cc  ;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  }
+  
+  .search-input {
+    padding: 0.5em;
+    margin-right: 40px;
+    margin-top: 25px;
+    background-color: #bdbdbd;
+    
+  }
+  
+  .search-button {
+  padding: 0.5em 1em;
+  background-color: #6699cc;
+  color: #003b6d;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+  }
+
+.logo{
+  height: 140px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right: 20%;
+    border-radius: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  nav a {
+    display: block;
+    padding: 20px;
+    color: #003b6d;
+    text-align: center;
+    text-decoration: none;
+    border-right: 30px solid #003b6d;
+    border-left:30px solid #003b6d;
+    border-radius: 50%;
+    background-color: #bdbdbd;
+    margin-bottom: 20px;
+  }
+  
+  nav a:hover {
+    background-color: #666;
+  }
+
+  section{ 
+    background-color: #676767;
+    text-align: center;
+    margin: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.intro2{
+        margin-top: -3%;
+        margin-bottom: 0%;
+        color: #bdbdbd;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 100px;
+        text-shadow: 0.5px 0.5px #6699cc;
+}
+
+.brief{
+    margin-left: 10%;
+    color: #bdbdbd;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+main{
+    background-color: #676767;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  margin-left: 40%;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+  height: 820px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+    text-align: center;
+    position: relative;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"]{
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 6%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="textarea"]{
+    width: 80%;
+    height: 80px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-left: 6%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #003b6d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+    position: relative;
+    left: 40%;  
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.pex1{
+  display: flex;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  top: 20%;
+  left: 5%;
+}
+
+
+.pex2{
+  display: flex;
+  position: relative;
+  width: 23%;
+  height: 25%;
+  top: 60%;
+  right: 65%;
+}
+
+@media screen and (min-width: 768px){
+    main{
+    flex-direction: row;
+    }
+}
+
+
+.info{
+    display: flex;
+    align-content: center;
+}
+
+
+
+footer {
+  background-color: #003b6d;
+  align-items: center;
+  padding: 0%;
+  display: flex;
+}
+
+.bot{
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 10%;
+  color: #bdbdbd;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+}
+.logo2{
+  width: 3%;
+  margin-left: 19.5%;
+}
+
+.pinterest{
+  display: flex;
+  max-width: fit-content;
+}
+
+.pinterest1{
+  width: 50px;
+}
+
+.facebook{
+  display: flex;
+  max-width: fit-content;
+}
+
+.facebook1{
+  width: 50px;
+}
+
+.twitter{
+  display: flex;
+  max-width: fit-content;
+}
+
+.twitter1{
+  width: 50px;
+}
+
+.insta{
+  display: flex;
+  max-width: fit-content;
+  
+}
+
+.insta1{
+  width: 50px;
+}
